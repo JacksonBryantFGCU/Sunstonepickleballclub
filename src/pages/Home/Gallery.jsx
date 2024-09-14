@@ -2,7 +2,7 @@
 import { useState } from 'react';
 
 const images = [
-    'src/assets/suntonepictures/43C1B0D8-B37F-4711-8F10-388789CB1237.jpg', // Replace with actual image URLs
+    'https://sunstonepickleball.com/src/assets/suntonepictures/43C1B0D8-B37F-4711-8F10-388789CB1237.jpg', // Replace with actual image URLs
     'src/assets/suntonepictures/EA340239-7890-4DEB-B4A2-8C1F1D0589C5.jpg',
     'src/assets/suntonepictures/A18D29B9-03A7-48D0-85E8-31D2E1B871CE.jpg',
     'src/assets/suntonepictures/93E8E956-E199-46E3-B411-6AA1B8FE19C7.jpg',
