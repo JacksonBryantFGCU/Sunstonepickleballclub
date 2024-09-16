@@ -2,11 +2,20 @@
 import { useState } from 'react';
 
 const images = [
-    '../../assets/suntonepictures/43C1B0D8-B37F-4711-8F10-388789CB1237.jpg',
-    '../../assets/suntonepictures/EA340239-7890-4DEB-B4A2-8C1F1D0589C5.jpg',
-    '../../assets/suntonepictures/A18D29B9-03A7-48D0-85E8-31D2E1B871CE.jpg',
-    '../../assets/suntonepictures/93E8E956-E199-46E3-B411-6AA1B8FE19C7.jpg',
-    '../../assets/suntonepictures/B6E15737-9643-49B3-ADD8-F23337E9AF00.jpg',
+    'assets/suntonepictures/Picture1.jpg',
+    'assets/suntonepictures/Picture2.jpg',
+    'assets/suntonepictures/Picture3.jpg',
+    'assets/suntonepictures/Picture4.jpg',
+    'assets/suntonepictures/Picture5.jpg',
+    'assets/suntonepictures/Picture6.jpg',
+    'assets/suntonepictures/Picture7.jpg',
+    'assets/suntonepictures/Picture8.jpg',
+    'assets/suntonepictures/Picture9.jpg',
+    'assets/suntonepictures/Picture10.jpg',
+    'assets/suntonepictures/Picture11.jpg',
+    'assets/suntonepictures/Picture12.jpg',
+    'assets/suntonepictures/Picture13.jpg',
+    'assets/suntonepictures/Picture14.jpg'
 ];
 
 const Gallery = () => {
@@ -35,7 +44,7 @@ const Gallery = () => {
                             style={{ transform: `translateX(-${currentIndex * 100}%)` }}
                         >
                             {images.map((image, index) => (
-                                <div key={index} className="min-w-full h-[600px]">
+                                <div key={index} className="min-w-full h-[700px]">
                                     <img
                                         src={image}
                                         alt={`Slide ${index + 1}`}
