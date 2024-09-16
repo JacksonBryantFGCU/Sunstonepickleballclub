@@ -1,11 +1,10 @@
-// src/components/Community.jsx
 import Footer from '../Home/Footer';
 import Navbar from '../Home/Navbar';
 
 // Example data for neighborhood members
 const members = [
     {
-        profileImage: '../../assets/suntonepictures/14B8667D-D542-4273-80A3-D7DD095EB97E.JPEG',
+        profileImage: 'assets/ProfilePictures/DanielPicture.JPEG',
         name: 'Daniel Lueders',
         hometown: 'Peoria, IL',
         paddle: 'Franklin Signature',
@@ -14,15 +13,15 @@ const members = [
     },
     {
         name: 'Rick Gordon',
-        profileImage: '../../assets/suntonepictures/79EC580D-FAF8-496E-AD9B-85FED6DDDC98.jpg',
-        hometown: 'Indiana',
+        profileImage: 'assets/ProfilePictures/RickPicture.jpg',
+        hometown: 'Columbus, Indiana',
         paddle: 'Joola Perseus',
         dominantHand: 'Right-handed',
         playLevel: 'Intermediate',
     },
     {
         name: 'Craig Colasanti',
-        profileImage: '../../assets/suntonepictures/Resized Image.jpg',
+        profileImage: 'assets/ProfilePictures/CraigPicture.jpg',
         hometown: 'New York',
         paddle: 'Diadem Warrior Edge',
         dominantHand: 'Right-handed',
