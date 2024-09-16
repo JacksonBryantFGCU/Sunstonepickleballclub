@@ -1,6 +1,6 @@
 // src/components/Gallery.jsx
 import { useState } from 'react';
-import Picture1 from 'suntonepictures/Picture1.jpg';
+import Picture1 from 'sunstonepictures/Picture1.jpg';
 
 const images = [
     Picture1,
