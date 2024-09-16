@@ -1,22 +1,35 @@
 // src/components/Gallery.jsx
 import { useState } from 'react';
 import Picture1 from '/assets/suntonepictures/Picture1.jpg';
+import Picture2 from '/assets/suntonepictures/Picture2.jpg';
+import Picture3 from '/assets/suntonepictures/Picture3.jpg';
+import Picture4 from '/assets/suntonepictures/Picture4.jpg';
+import Picture5 from '/assets/suntonepictures/Picture5.jpg';
+import Picture6 from '/assets/suntonepictures/Picture6.jpg';
+import Picture7 from '/assets/suntonepictures/Picture7.jpg';
+import Picture8 from '/assets/suntonepictures/Picture8.jpg';
+import Picture9 from '/assets/suntonepictures/Picture9.jpg';
+import Picture10 from '/assets/suntonepictures/Picture10.jpg';
+import Picture11 from '/assets/suntonepictures/Picture11.jpg';
+import Picture12 from '/assets/suntonepictures/Picture12.jpg';
+import Picture13 from '/assets/suntonepictures/Picture13.jpg';
+import Picture14 from '/assets/suntonepictures/Picture14.jpg';
 
 const images = [
     Picture1,
-    '/assets/suntonepictures/Picture2.jpg',
-    'assets/suntonepictures/Picture3.jpg',
-    'assets/suntonepictures/Picture4.jpg',
-    'assets/suntonepictures/Picture5.jpg',
-    'assets/suntonepictures/Picture6.jpg',
-    'assets/suntonepictures/Picture7.jpg',
-    'assets/suntonepictures/Picture8.jpg',
-    'assets/suntonepictures/Picture9.jpg',
-    'assets/suntonepictures/Picture10.jpg',
-    'assets/suntonepictures/Picture11.jpg',
-    'assets/suntonepictures/Picture12.jpg',
-    'assets/suntonepictures/Picture13.jpg',
-    'assets/suntonepictures/Picture14.jpg'
+    Picture2,
+    Picture3,
+    Picture4,
+    Picture5,
+    Picture6,
+    Picture7,
+    Picture8,
+    Picture9,
+    Picture10,
+    Picture11,
+    Picture12,
+    Picture13,
+    Picture14
 ];
 
 const Gallery = () => {
