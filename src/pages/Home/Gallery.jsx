@@ -4,7 +4,7 @@ import Picture1 from '/assets/suntonepictures/Picture1.jpg';
 
 const images = [
     Picture1,
-    '../../../suntonepictures/Picture2.jpg',
+    '/assets/suntonepictures/Picture2.jpg',
     'assets/suntonepictures/Picture3.jpg',
     'assets/suntonepictures/Picture4.jpg',
     'assets/suntonepictures/Picture5.jpg',
