@@ -157,13 +157,13 @@ const Calendar = () => {
                 <div className="border border-gray-300 rounded-lg p-6 max-sm:p-2">
                     <div className="flex justify-between items-center mb-4">
                         {/* Hide month navigation on mobile */}
-                        <button onClick={prevMonth} className="hidden sm:block text-xl p-2 bg-gray-200 rounded-md hover:bg-gray-300">
+                        <button onClick={prevMonth} className="sm:block text-xl p-2 bg-gray-200 rounded-md hover:bg-gray-300">
                             &larr; Previous
                         </button>
                         <div className="md:text-3xl text-xl font-semibold max-sm:mx-auto">
                             {months[currentMonth]} {currentYear}
                         </div>
-                        <button onClick={nextMonth} className="hidden sm:block text-xl p-2 bg-gray-200 rounded-md hover:bg-gray-300">
+                        <button onClick={nextMonth} className="sm:block text-xl p-2 bg-gray-200 rounded-md hover:bg-gray-300">
                             Next &rarr;
                         </button>
                     </div>
