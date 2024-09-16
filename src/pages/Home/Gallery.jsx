@@ -2,8 +2,8 @@
 import { useState } from 'react';
 
 const images = [
-    'public/assets/suntonepictures/Picture1.jpg',
-    'assets/suntonepictures/Picture2.jpg',
+    '../../../assets/suntonepictures/Picture1.jpg',
+    '../../../assets/suntonepictures/Picture2.jpg',
     'assets/suntonepictures/Picture3.jpg',
     'assets/suntonepictures/Picture4.jpg',
     'assets/suntonepictures/Picture5.jpg',
