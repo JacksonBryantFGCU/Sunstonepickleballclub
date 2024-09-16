@@ -12,6 +12,9 @@ const Footer = () => {
                         <p className="text-gray-400">
                             Join our vibrant pickleball community, where we promote fun, fitness, and friendship through this growing sport.
                         </p>
+                        <p className='text-gray-400'>For steps to join: 
+                        <a href="/" className='hover:text-blue-600'> Click Here</a>
+                        </p>
                     </div>
 
                     {/* Column 2: Quick Links */}
