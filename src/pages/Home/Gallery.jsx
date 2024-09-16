@@ -1,8 +1,9 @@
 // src/components/Gallery.jsx
 import { useState } from 'react';
+import Picture1 from '../../../public/assets/sunstonepictures/Picture1.jpg';
 
 const images = [
-    'public/assets/suntonepictures/suntonepictures/Picture1.jpg',
+    Picture1,
     '/assets/suntonepictures/Picture2.jpg',
     'assets/suntonepictures/Picture3.jpg',
     'assets/suntonepictures/Picture4.jpg',
