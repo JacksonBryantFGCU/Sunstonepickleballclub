@@ -1,21 +1,26 @@
 # Sunstone Pickleball Club Website  
 
-Welcome to the **Sunstone Pickleball Club Website**! This site serves as the go-to resource for residents of the **Sunstone neighborhood** to learn about the pickleball club, how to join, upcoming events, and more.  
+A responsive, community-focused web application built to support the Sunstone neighborhood's pickleball club. The site provides event scheduling, player profiles, and an easy sign-up experience to improve communication and member engagement.
 
-## 🌐 **Live Demo**  
-Check out the live website here:  
+## 🌐 Live Demo 
 [Sunstone Pickleball Club](sunstone-pickleball-club.vercel.app)  
 
-## 🚀 **Features**  
-- 📅 **Club Calendar** – Stay updated on upcoming pickleball events and meetups.  
-- 📖 **About the Club** – Learn about the club's mission, members, and benefits.  
-- 📝 **How to Join** – Step-by-step instructions for becoming a club member.  
-- 🎨 **Modern, Responsive Design** – Optimized for mobile and desktop users.  
+## 🚀 Features
+- 📅 **Calendar Page** – View upcoming pickleball events and meetups.
+- 🧑‍🤝‍🧑 **Player Profiles** – Showcase club members and foster community
+- 📝 **Join Instructions** – Simple steps for new members to sign up  
+- 🎨 **Modern UI** – Smooth animations, responsive layout via Tailwind and Framer Motion  
+- 🔗 **5+ actionable links** – Improve accessibility and engagement
 
-## 🛠 **Technologies Used**  
-- **React** – Frontend framework for building dynamic UI.  
-- **Tailwind CSS** – Utility-first styling for a clean and responsive design.  
-- **React-Router-DOM** – Handles seamless page navigation.  
+---
+
+## 🛠 Tech Stack  
+- **React** – Component-based architecture  
+- **React Router DOM** – Client-side routing across 4 pages  
+- **Tailwind CSS** – Utility-first responsive styling  
+- **Framer Motion** – Smooth transitions and animations  
+
+---
 
 ## ⚙ **Installation & Setup**  
 To run the project locally, follow these steps:  
@@ -38,8 +43,8 @@ To run the project locally, follow these steps:
     ```
 5. Open your browser and go to `http://localhost:3000`.  
 
-## 🎯 **Usage**  
-Once set up, you can customize the website content, update events, and modify styles as needed.  
+## 🧠 Lessons Learned
+This project strengthened my skills in responsive front-end development, animated UI/UX with Framer Motion, and real-world client delivery with specific user needs and deployment constraints.
 
 ## 📜 **License**  
 This project is open-source and available under the [MIT License](LICENSE).  
